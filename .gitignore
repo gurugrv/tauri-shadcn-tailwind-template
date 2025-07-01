@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+dist/
+.env
+.env.*
+
+# Rust/Tauri
+src-tauri/target/
+src-tauri/.cargo/
+src-tauri/Cargo.lock
+
+# Build artifacts
+*.log
+*.lock
+*.bin
+*.pdb
+*.o
+*.obj
+*.dll
+*.exe
+*.dylib
+*.so
+
+# Incremental build artifacts
+src-tauri/target/debug/incremental/
+src-tauri/target/release/incremental/
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
