@@ -30,6 +30,7 @@ src-tauri/target/release/incremental/
 Thumbs.db
 .vscode/
 .idea/
+.claude/
 
 # Misc
 npm-debug.log*
